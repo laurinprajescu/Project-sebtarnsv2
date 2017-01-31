@@ -44,6 +44,7 @@ body {
 	font-weight: normal;
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased !important;
+	padding-top: 50px
 }
 
 .justify-text {
@@ -222,14 +223,14 @@ body {
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-
-    -webkit-background-size: cover;
+	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
 	background-attachment: relative;
 	background-position: center center;
+	padding-top: 100px;
 }
 @media only screen and (max-width : 996px) {
 
@@ -238,13 +239,7 @@ body {
 		color: white;
 	}
 
-    }
-
-
-
-/*#slide-1 img {
-	padding-top: 5px;
-}*/
+}
 
 @media (max-width: 991px) {
 	#slide-1 {
@@ -552,14 +547,14 @@ body {
 	z-index: 999;
 }
 
-#arrows {
+/*#arrows {
 	bottom: 10%;
 	height: 80px;
 	position: fixed;
 	right: 10%;
 	width: 80px;
 	z-index: 1000;
-}
+}*/
 
 #arrows div {
 	background-image: url('../images/website-arrows.png');
@@ -595,4 +590,15 @@ body {
 
 .navigation-slide {
 	cursor: pointer;
+}
+#truckCarousel {
+	padding-top: 50px;
+}
+.icon-chevron-right {
+	margin-top: 220px;
+	position: absolute;
+}
+.icon-chevron-left {
+	margin-top: 220px;
+	position: absolute;
 }
