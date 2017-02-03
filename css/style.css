@@ -603,3 +603,9 @@ body {
 	margin-top: 220px;
 	position: absolute;
 }
+.footer{
+	min-height: 20px;
+}
+.text-footer{
+	margin: 0;
+}
